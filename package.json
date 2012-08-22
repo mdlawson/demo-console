@@ -1,0 +1,18 @@
+{ 
+  "name": "rogue", 
+  "description": "Coffeescript game engine", 
+  "version": "0.0.1", 
+  "author": "mdlawson", 
+  "repository": { 
+    "type" : "git", 
+    "url": "http://github.com/mdlawson/rogue.git"
+  }, 
+  "main" : "./lib/rogue.js",
+  "devDependencies": {
+    "express": "3.x",
+    "coffee-script": "1.3.x",
+    "jade": "0.27.x",
+    "stylus": "0.x",
+    "flour": "0.2.x"
+  }
+}
